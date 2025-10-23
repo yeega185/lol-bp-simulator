@@ -174,6 +174,55 @@
             text-shadow: 0 0 5px #000;
         }
 
+        /* 選手資訊面板樣式 */
+        .player-card {
+            background: rgba(17, 24, 39, 0.9);
+            border: 1px solid rgba(148, 163, 184, 0.35);
+            border-radius: 0.75rem;
+            padding: 1rem;
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .player-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 18px 32px rgba(253, 224, 71, 0.25);
+        }
+        .player-role {
+            font-size: 0.75rem;
+            letter-spacing: 0.08em;
+        }
+        .player-metrics {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 0.5rem;
+        }
+        .player-metric {
+            background: rgba(30, 41, 59, 0.75);
+            border-radius: 0.5rem;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        .player-signature {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        .player-signature img {
+            width: 36px;
+            height: 36px;
+            border-radius: 0.5rem;
+            border: 1px solid rgba(148, 163, 184, 0.45);
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+        }
+        .player-signature span {
+            font-size: 0.75rem;
+            color: #e5e7eb;
+            background: rgba(55, 65, 81, 0.8);
+            border-radius: 0.5rem;
+            padding: 0.25rem 0.5rem;
+        }
+
     </style>
 </head>
 <body class="p-4 sm:p-8">
@@ -215,6 +264,38 @@
             <button class="bg-blue-600 hover:bg-blue-500 text-white font-bold py-2 px-6 rounded-lg transition duration-200 shadow-md hover:shadow-blue-500/50" onclick="declareWinner('Blue')">藍隊獲勝</button>
             <button class="bg-red-600 hover:bg-red-500 text-white font-bold py-2 px-6 rounded-lg transition duration-200 shadow-md hover:shadow-red-500/50" onclick="declareWinner('Red')">紅隊獲勝</button>
         </div>
+    </div>
+
+    <!-- 全球賽區選手數據面板 -->
+    <div class="history-card p-6 rounded-2xl mb-8">
+        <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <div>
+                <h2 class="text-xl font-extrabold text-yellow-400">全球賽區選手資料庫</h2>
+                <p class="text-sm text-gray-400">快速查詢各大賽區選手的招牌英雄與近期 Pick/Ban 數據，輔助 BP 判斷。</p>
+            </div>
+        </div>
+        <div class="mt-4 grid gap-4 md:grid-cols-3">
+            <div class="flex flex-col">
+                <label for="region-select" class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">選擇賽區</label>
+                <select id="region-select" class="bg-gray-800 border border-gray-700 text-sm rounded-lg px-3 py-2 focus:outline-none focus:ring-4 focus:ring-yellow-500/40 text-gray-100">
+                    <option value="">載入中...</option>
+                </select>
+            </div>
+            <div class="flex flex-col md:col-span-1">
+                <label for="team-select" class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">選擇戰隊</label>
+                <select id="team-select" class="bg-gray-800 border border-gray-700 text-sm rounded-lg px-3 py-2 focus:outline-none focus:ring-4 focus:ring-yellow-500/40 text-gray-100 disabled:opacity-50" disabled>
+                    <option value="">請先選擇賽區</option>
+                </select>
+            </div>
+            <div class="flex flex-col md:col-span-1">
+                <span class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">資料概況</span>
+                <div id="player-meta" class="bg-gray-800 border border-gray-700 rounded-lg px-3 py-3 text-sm text-gray-300">
+                    <p>正在準備資料...</p>
+                </div>
+            </div>
+        </div>
+        <div id="player-error" class="hidden mt-4 text-sm text-red-400 font-semibold">無法載入選手數據，請稍後再試。</div>
+        <div id="player-list" class="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-3"></div>
     </div>
 
 
@@ -322,7 +403,13 @@
             { id: 'Vayne', name: '汎' }, { id: 'Vex', name: '薇古絲' }, { id: 'Viego', name: '維爾戈' },
             { id: 'Vi', name: '菲艾' }, { id: 'Xayah', name: '剎雅' }, { id: 'Yasuo', name: '犽宿' },
             { id: 'Yone', name: '犽凝' }, { id: 'Yuumi', name: '悠咪' }, { id: 'Zed', name: '劫' },
-            { id: 'Zoe', name: '柔伊' },
+            { id: 'Zoe', name: '柔伊' }, { id: 'Azir', name: '阿祈爾' }, { id: 'Rakan', name: '洛' },
+            { id: 'Lux', name: '拉克絲' }, { id: 'Jax', name: '賈克斯' }, { id: 'Jayce', name: '杰西' },
+            { id: 'JarvanIV', name: '嘉文四世' }, { id: 'Kalista', name: '克黎思妲' },
+            { id: 'KSante', name: '卡桑帝' }, { id: 'Kayn', name: '慨影' }, { id: 'Belveth', name: '貝爾薇斯' },
+            { id: 'Neeko', name: '妮可' }, { id: 'Tristana', name: '崔絲塔娜' }, { id: 'Olaf', name: '歐拉夫' },
+            { id: 'Kled', name: '克雷德' }, { id: 'Poppy', name: '波比' }, { id: 'Ornn', name: '鄂恩' },
+            { id: 'Milio', name: '米留歐' }, { id: 'Alistar', name: '亞歷斯塔' }, { id: 'Zeri', name: '澤麗' }
         ];
         
         // 競技 B/P 流程 (20 步) - 根據使用者要求更新
@@ -384,6 +471,234 @@
         const searchInput = document.getElementById('champion-search');
         const winnerButtons = document.getElementById('winner-buttons');
         const seriesHistoryLog = document.getElementById('series-history-log');
+        const regionSelect = document.getElementById('region-select');
+        const teamSelect = document.getElementById('team-select');
+        const playerListContainer = document.getElementById('player-list');
+        const playerError = document.getElementById('player-error');
+        const playerMeta = document.getElementById('player-meta');
+
+        let playerStatsData = [];
+
+        if (regionSelect) {
+            regionSelect.addEventListener('change', () => {
+                renderTeamOptions();
+                renderPlayerList();
+            });
+        }
+
+        if (teamSelect) {
+            teamSelect.addEventListener('change', () => {
+                renderPlayerList();
+            });
+        }
+
+        async function loadPlayerStats() {
+            if (!regionSelect || !teamSelect || !playerMeta) return;
+
+            playerMeta.innerHTML = '<p class="text-gray-400">資料載入中...</p>';
+            teamSelect.disabled = true;
+
+            try {
+                const response = await fetch('./data/player_stats.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+
+                const data = await response.json();
+                if (!Array.isArray(data) || data.length === 0) {
+                    throw new Error('Empty player stats');
+                }
+
+                playerStatsData = data;
+                populateRegionSelect();
+                renderTeamOptions();
+                renderPlayerList();
+                playerError.classList.add('hidden');
+            } catch (error) {
+                console.error('Failed to load player stats', error);
+                playerError.classList.remove('hidden');
+                playerMeta.innerHTML = '<p class="text-red-400">資料載入失敗</p>';
+                teamSelect.disabled = true;
+            }
+        }
+
+        function populateRegionSelect() {
+            if (!regionSelect) return;
+            regionSelect.innerHTML = '';
+
+            playerStatsData.forEach((regionEntry, index) => {
+                const option = document.createElement('option');
+                option.value = regionEntry.region;
+                option.textContent = regionEntry.displayName || regionEntry.region;
+                if (index === 0) {
+                    option.selected = true;
+                }
+                regionSelect.appendChild(option);
+            });
+        }
+
+        function renderTeamOptions() {
+            if (!teamSelect || !regionSelect) return;
+            const selectedRegion = regionSelect.value;
+            const regionEntry = playerStatsData.find(entry => entry.region === selectedRegion);
+
+            teamSelect.innerHTML = '';
+
+            if (!regionEntry || !Array.isArray(regionEntry.teams) || regionEntry.teams.length === 0) {
+                const option = document.createElement('option');
+                option.value = '';
+                option.textContent = '無可用戰隊';
+                teamSelect.appendChild(option);
+                teamSelect.disabled = true;
+                playerMeta.innerHTML = '<p class="text-gray-400">此賽區目前沒有戰隊資料。</p>';
+                return;
+            }
+
+            regionEntry.teams.forEach((team, index) => {
+                const option = document.createElement('option');
+                option.value = team.code;
+                option.textContent = team.displayName || team.name || team.code;
+                if (index === 0) {
+                    option.selected = true;
+                }
+                teamSelect.appendChild(option);
+            });
+
+            teamSelect.disabled = false;
+
+            const totalPlayers = regionEntry.teams.reduce((count, t) => count + (t.players?.length || 0), 0);
+            playerMeta.innerHTML = `
+                <p><span class="text-yellow-400 font-semibold">${regionEntry.displayName || regionEntry.region}</span> 共收錄 <span class="font-bold">${regionEntry.teams.length}</span> 支隊伍、<span class="font-bold">${totalPlayers}</span> 位選手。</p>
+            `;
+        }
+
+        function renderPlayerList() {
+            if (!playerListContainer || !regionSelect || !teamSelect) return;
+            playerListContainer.innerHTML = '';
+
+            if (!playerStatsData.length) {
+                playerListContainer.innerHTML = '<p class="text-gray-400">資料載入中...</p>';
+                return;
+            }
+
+            const selectedRegion = regionSelect.value;
+            const regionEntry = playerStatsData.find(entry => entry.region === selectedRegion);
+
+            if (!regionEntry) {
+                playerListContainer.innerHTML = '<p class="text-gray-400">目前沒有對應賽區的資料。</p>';
+                return;
+            }
+
+            let teamEntry = regionEntry.teams.find(team => team.code === teamSelect.value);
+            if (!teamEntry && regionEntry.teams.length > 0) {
+                teamEntry = regionEntry.teams[0];
+                teamSelect.value = teamEntry.code;
+            }
+
+            if (!teamEntry) {
+                playerListContainer.innerHTML = '<p class="text-gray-400">此賽區暫無戰隊資訊。</p>';
+                return;
+            }
+
+            if (!Array.isArray(teamEntry.players) || teamEntry.players.length === 0) {
+                playerListContainer.innerHTML = '<p class="text-gray-400">此戰隊尚未收錄選手資料。</p>';
+                return;
+            }
+
+            const totalPlayers = regionEntry.teams.reduce((count, t) => count + (t.players?.length || 0), 0);
+            const teamMetaFragments = [];
+            if (teamEntry.record) {
+                teamMetaFragments.push(teamEntry.record);
+            }
+            if (teamEntry.notes) {
+                teamMetaFragments.push(teamEntry.notes);
+            }
+            const teamMetaText = teamMetaFragments.join(' ｜ ');
+
+            if (playerMeta) {
+                playerMeta.innerHTML = `
+                    <p><span class="text-yellow-400 font-semibold">${regionEntry.displayName || regionEntry.region}</span> 收錄 <span class="font-bold">${regionEntry.teams.length}</span> 支戰隊、<span class="font-bold">${totalPlayers}</span> 位選手。</p>
+                    <p class="mt-2 text-gray-400">目前檢視：<span class="text-white font-semibold">${teamEntry.displayName || teamEntry.name || teamEntry.code}</span>${teamMetaText ? `<span class="block text-xs text-gray-500 mt-1">${teamMetaText}</span>` : ''}</p>
+                `;
+            }
+
+            const fragment = document.createDocumentFragment();
+
+            teamEntry.players.forEach(player => {
+                const card = document.createElement('div');
+                card.className = 'player-card';
+
+                const signatureContent = renderSignatureChampions(player.signatureChamps || []);
+                const pickRate = formatRate(player.pickRate);
+                const banRate = formatRate(player.banRate);
+
+                card.innerHTML = `
+                    <div class="flex items-start justify-between mb-3">
+                        <div>
+                            <h4 class="text-lg font-bold text-white">${player.name}</h4>
+                            <p class="player-role text-gray-400">${player.role || '未標註角色'}</p>
+                        </div>
+                        <div class="text-xs text-gray-400 bg-gray-800 border border-gray-700 rounded-md px-2 py-1">${teamEntry.displayName || teamEntry.name || teamEntry.code}</div>
+                    </div>
+                    <div class="player-metrics mb-3">
+                        <div class="player-metric">
+                            <p class="text-xs text-gray-400 uppercase">Pick 率</p>
+                            <p class="text-lg font-semibold text-emerald-400">${pickRate}</p>
+                        </div>
+                        <div class="player-metric">
+                            <p class="text-xs text-gray-400 uppercase">Ban 率</p>
+                            <p class="text-lg font-semibold text-rose-400">${banRate}</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-xs text-gray-400 uppercase tracking-wide mb-2">招牌英雄</p>
+                        <div class="player-signature">${signatureContent}</div>
+                    </div>
+                `;
+
+                fragment.appendChild(card);
+            });
+
+            playerListContainer.appendChild(fragment);
+        }
+
+        function renderSignatureChampions(signatureChamps) {
+            if (!Array.isArray(signatureChamps) || signatureChamps.length === 0) {
+                return '<span>暫無資料</span>';
+            }
+
+            return signatureChamps.map(champId => {
+                if (typeof champId !== 'string' || !champId.trim()) {
+                    return '<span>—</span>';
+                }
+                const champ = champions.find(c => c.id === champId);
+                const name = champ ? champ.name : champId;
+                const iconUrl = getChampionIconUrl(champId);
+                return `
+                    <div class="flex flex-col items-center text-center text-[10px] text-gray-300">
+                        <img src="${iconUrl}" alt="${name}" title="${name}" onerror="this.onerror=null; this.src='https://placehold.co/36x36/dc2626/fff?text=ERR';">
+                        <span class="mt-1">${name}</span>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function formatRate(value) {
+            if (value === null || value === undefined || value === '') {
+                return '—';
+            }
+
+            const numberValue = Number(value);
+            if (Number.isNaN(numberValue)) {
+                return value;
+            }
+
+            if (numberValue === 0) {
+                return '0%';
+            }
+
+            return `${numberValue.toFixed(1)}%`;
+        }
 
         // --- 模態框功能 (略) ---
         function showModal(title, text) {
@@ -806,7 +1121,8 @@
             renderChampions();
             updatePhaseDisplay();
             updateScoreDisplay();
-            renderSeriesHistory(); 
+            renderSeriesHistory();
+            loadPlayerStats();
             console.log("BO5 B/P 模擬器（Pick 禁用規則）已啟動。");
         };
 

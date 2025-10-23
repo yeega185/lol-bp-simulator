@@ -1,0 +1,2532 @@
+{
+  "season": "2025 LCK Spring",
+  "lastUpdated": "2024-11-23",
+  "stages": [
+    {
+      "name": "Regular Season",
+      "type": "double_round_robin",
+      "matches": [
+        {
+          "id": "SPR-01-001",
+          "round": 1,
+          "date": "2025-01-08",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Wednesday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "GEN",
+            "name": "Gen.G",
+            "displayName": "Gen.G"
+          },
+          "redTeam": {
+            "code": "LSB",
+            "name": "Liiv SANDBOX",
+            "displayName": "Liiv SANDBOX"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-01-002",
+          "round": 1,
+          "date": "2025-01-08",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Wednesday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "T1",
+            "name": "T1",
+            "displayName": "T1"
+          },
+          "redTeam": {
+            "code": "BRO",
+            "name": "OKSavingsBank BRION",
+            "displayName": "OKSavingsBank BRION"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-01-003",
+          "round": 1,
+          "date": "2025-01-09",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Thursday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "HLE",
+            "name": "Hanwha Life Esports",
+            "displayName": "Hanwha Life Esports"
+          },
+          "redTeam": {
+            "code": "NS",
+            "name": "Nongshim RedForce",
+            "displayName": "Nongshim RedForce"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-01-004",
+          "round": 1,
+          "date": "2025-01-09",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Thursday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "KT",
+            "name": "KT Rolster",
+            "displayName": "KT Rolster"
+          },
+          "redTeam": {
+            "code": "KDF",
+            "name": "Kwangdong Freecs",
+            "displayName": "Kwangdong Freecs"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-01-005",
+          "round": 1,
+          "date": "2025-01-10",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Friday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "DK",
+            "name": "Dplus KIA",
+            "displayName": "Dplus KIA"
+          },
+          "redTeam": {
+            "code": "DRX",
+            "name": "DRX",
+            "displayName": "DRX"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-02-006",
+          "round": 2,
+          "date": "2025-01-11",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Saturday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "BRO",
+            "name": "OKSavingsBank BRION",
+            "displayName": "OKSavingsBank BRION"
+          },
+          "redTeam": {
+            "code": "GEN",
+            "name": "Gen.G",
+            "displayName": "Gen.G"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-02-007",
+          "round": 2,
+          "date": "2025-01-11",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Saturday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "NS",
+            "name": "Nongshim RedForce",
+            "displayName": "Nongshim RedForce"
+          },
+          "redTeam": {
+            "code": "LSB",
+            "name": "Liiv SANDBOX",
+            "displayName": "Liiv SANDBOX"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-02-008",
+          "round": 2,
+          "date": "2025-01-12",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Sunday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "KDF",
+            "name": "Kwangdong Freecs",
+            "displayName": "Kwangdong Freecs"
+          },
+          "redTeam": {
+            "code": "T1",
+            "name": "T1",
+            "displayName": "T1"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-02-009",
+          "round": 2,
+          "date": "2025-01-12",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Sunday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "DRX",
+            "name": "DRX",
+            "displayName": "DRX"
+          },
+          "redTeam": {
+            "code": "HLE",
+            "name": "Hanwha Life Esports",
+            "displayName": "Hanwha Life Esports"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-02-010",
+          "round": 2,
+          "date": "2025-01-15",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Wednesday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "DK",
+            "name": "Dplus KIA",
+            "displayName": "Dplus KIA"
+          },
+          "redTeam": {
+            "code": "KT",
+            "name": "KT Rolster",
+            "displayName": "KT Rolster"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-03-011",
+          "round": 3,
+          "date": "2025-01-16",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Thursday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "GEN",
+            "name": "Gen.G",
+            "displayName": "Gen.G"
+          },
+          "redTeam": {
+            "code": "NS",
+            "name": "Nongshim RedForce",
+            "displayName": "Nongshim RedForce"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-03-012",
+          "round": 3,
+          "date": "2025-01-16",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Thursday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "BRO",
+            "name": "OKSavingsBank BRION",
+            "displayName": "OKSavingsBank BRION"
+          },
+          "redTeam": {
+            "code": "KDF",
+            "name": "Kwangdong Freecs",
+            "displayName": "Kwangdong Freecs"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-03-013",
+          "round": 3,
+          "date": "2025-01-17",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Friday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "LSB",
+            "name": "Liiv SANDBOX",
+            "displayName": "Liiv SANDBOX"
+          },
+          "redTeam": {
+            "code": "DRX",
+            "name": "DRX",
+            "displayName": "DRX"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-03-014",
+          "round": 3,
+          "date": "2025-01-17",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Friday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "T1",
+            "name": "T1",
+            "displayName": "T1"
+          },
+          "redTeam": {
+            "code": "DK",
+            "name": "Dplus KIA",
+            "displayName": "Dplus KIA"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-03-015",
+          "round": 3,
+          "date": "2025-01-18",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Saturday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "HLE",
+            "name": "Hanwha Life Esports",
+            "displayName": "Hanwha Life Esports"
+          },
+          "redTeam": {
+            "code": "KT",
+            "name": "KT Rolster",
+            "displayName": "KT Rolster"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-04-016",
+          "round": 4,
+          "date": "2025-01-19",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Sunday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "KDF",
+            "name": "Kwangdong Freecs",
+            "displayName": "Kwangdong Freecs"
+          },
+          "redTeam": {
+            "code": "GEN",
+            "name": "Gen.G",
+            "displayName": "Gen.G"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-04-017",
+          "round": 4,
+          "date": "2025-01-19",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Sunday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "DRX",
+            "name": "DRX",
+            "displayName": "DRX"
+          },
+          "redTeam": {
+            "code": "NS",
+            "name": "Nongshim RedForce",
+            "displayName": "Nongshim RedForce"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-04-018",
+          "round": 4,
+          "date": "2025-01-22",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Wednesday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "DK",
+            "name": "Dplus KIA",
+            "displayName": "Dplus KIA"
+          },
+          "redTeam": {
+            "code": "BRO",
+            "name": "OKSavingsBank BRION",
+            "displayName": "OKSavingsBank BRION"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-04-019",
+          "round": 4,
+          "date": "2025-01-22",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Wednesday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "KT",
+            "name": "KT Rolster",
+            "displayName": "KT Rolster"
+          },
+          "redTeam": {
+            "code": "LSB",
+            "name": "Liiv SANDBOX",
+            "displayName": "Liiv SANDBOX"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-04-020",
+          "round": 4,
+          "date": "2025-01-23",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Thursday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "HLE",
+            "name": "Hanwha Life Esports",
+            "displayName": "Hanwha Life Esports"
+          },
+          "redTeam": {
+            "code": "T1",
+            "name": "T1",
+            "displayName": "T1"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-05-021",
+          "round": 5,
+          "date": "2025-01-24",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Friday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "GEN",
+            "name": "Gen.G",
+            "displayName": "Gen.G"
+          },
+          "redTeam": {
+            "code": "DRX",
+            "name": "DRX",
+            "displayName": "DRX"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-05-022",
+          "round": 5,
+          "date": "2025-01-24",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Friday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "KDF",
+            "name": "Kwangdong Freecs",
+            "displayName": "Kwangdong Freecs"
+          },
+          "redTeam": {
+            "code": "DK",
+            "name": "Dplus KIA",
+            "displayName": "Dplus KIA"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-05-023",
+          "round": 5,
+          "date": "2025-01-25",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Saturday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "NS",
+            "name": "Nongshim RedForce",
+            "displayName": "Nongshim RedForce"
+          },
+          "redTeam": {
+            "code": "KT",
+            "name": "KT Rolster",
+            "displayName": "KT Rolster"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-05-024",
+          "round": 5,
+          "date": "2025-01-25",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Saturday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "BRO",
+            "name": "OKSavingsBank BRION",
+            "displayName": "OKSavingsBank BRION"
+          },
+          "redTeam": {
+            "code": "HLE",
+            "name": "Hanwha Life Esports",
+            "displayName": "Hanwha Life Esports"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-05-025",
+          "round": 5,
+          "date": "2025-01-26",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Sunday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "LSB",
+            "name": "Liiv SANDBOX",
+            "displayName": "Liiv SANDBOX"
+          },
+          "redTeam": {
+            "code": "T1",
+            "name": "T1",
+            "displayName": "T1"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-06-026",
+          "round": 6,
+          "date": "2025-01-29",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Wednesday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "DK",
+            "name": "Dplus KIA",
+            "displayName": "Dplus KIA"
+          },
+          "redTeam": {
+            "code": "GEN",
+            "name": "Gen.G",
+            "displayName": "Gen.G"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-06-027",
+          "round": 6,
+          "date": "2025-01-29",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Wednesday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "KT",
+            "name": "KT Rolster",
+            "displayName": "KT Rolster"
+          },
+          "redTeam": {
+            "code": "DRX",
+            "name": "DRX",
+            "displayName": "DRX"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-06-028",
+          "round": 6,
+          "date": "2025-01-30",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Thursday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "HLE",
+            "name": "Hanwha Life Esports",
+            "displayName": "Hanwha Life Esports"
+          },
+          "redTeam": {
+            "code": "KDF",
+            "name": "Kwangdong Freecs",
+            "displayName": "Kwangdong Freecs"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-06-029",
+          "round": 6,
+          "date": "2025-01-30",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Thursday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "T1",
+            "name": "T1",
+            "displayName": "T1"
+          },
+          "redTeam": {
+            "code": "NS",
+            "name": "Nongshim RedForce",
+            "displayName": "Nongshim RedForce"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-06-030",
+          "round": 6,
+          "date": "2025-01-31",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Friday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "LSB",
+            "name": "Liiv SANDBOX",
+            "displayName": "Liiv SANDBOX"
+          },
+          "redTeam": {
+            "code": "BRO",
+            "name": "OKSavingsBank BRION",
+            "displayName": "OKSavingsBank BRION"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-07-031",
+          "round": 7,
+          "date": "2025-02-01",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Saturday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "GEN",
+            "name": "Gen.G",
+            "displayName": "Gen.G"
+          },
+          "redTeam": {
+            "code": "KT",
+            "name": "KT Rolster",
+            "displayName": "KT Rolster"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-07-032",
+          "round": 7,
+          "date": "2025-02-01",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Saturday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "DK",
+            "name": "Dplus KIA",
+            "displayName": "Dplus KIA"
+          },
+          "redTeam": {
+            "code": "HLE",
+            "name": "Hanwha Life Esports",
+            "displayName": "Hanwha Life Esports"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-07-033",
+          "round": 7,
+          "date": "2025-02-02",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Sunday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "DRX",
+            "name": "DRX",
+            "displayName": "DRX"
+          },
+          "redTeam": {
+            "code": "T1",
+            "name": "T1",
+            "displayName": "T1"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-07-034",
+          "round": 7,
+          "date": "2025-02-02",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Sunday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "KDF",
+            "name": "Kwangdong Freecs",
+            "displayName": "Kwangdong Freecs"
+          },
+          "redTeam": {
+            "code": "LSB",
+            "name": "Liiv SANDBOX",
+            "displayName": "Liiv SANDBOX"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-07-035",
+          "round": 7,
+          "date": "2025-02-05",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Wednesday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "NS",
+            "name": "Nongshim RedForce",
+            "displayName": "Nongshim RedForce"
+          },
+          "redTeam": {
+            "code": "BRO",
+            "name": "OKSavingsBank BRION",
+            "displayName": "OKSavingsBank BRION"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-08-036",
+          "round": 8,
+          "date": "2025-02-06",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Thursday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "HLE",
+            "name": "Hanwha Life Esports",
+            "displayName": "Hanwha Life Esports"
+          },
+          "redTeam": {
+            "code": "GEN",
+            "name": "Gen.G",
+            "displayName": "Gen.G"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-08-037",
+          "round": 8,
+          "date": "2025-02-06",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Thursday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "T1",
+            "name": "T1",
+            "displayName": "T1"
+          },
+          "redTeam": {
+            "code": "KT",
+            "name": "KT Rolster",
+            "displayName": "KT Rolster"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-08-038",
+          "round": 8,
+          "date": "2025-02-07",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Friday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "LSB",
+            "name": "Liiv SANDBOX",
+            "displayName": "Liiv SANDBOX"
+          },
+          "redTeam": {
+            "code": "DK",
+            "name": "Dplus KIA",
+            "displayName": "Dplus KIA"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-08-039",
+          "round": 8,
+          "date": "2025-02-07",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Friday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "BRO",
+            "name": "OKSavingsBank BRION",
+            "displayName": "OKSavingsBank BRION"
+          },
+          "redTeam": {
+            "code": "DRX",
+            "name": "DRX",
+            "displayName": "DRX"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-08-040",
+          "round": 8,
+          "date": "2025-02-08",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Saturday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "NS",
+            "name": "Nongshim RedForce",
+            "displayName": "Nongshim RedForce"
+          },
+          "redTeam": {
+            "code": "KDF",
+            "name": "Kwangdong Freecs",
+            "displayName": "Kwangdong Freecs"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-09-041",
+          "round": 9,
+          "date": "2025-02-09",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Sunday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "GEN",
+            "name": "Gen.G",
+            "displayName": "Gen.G"
+          },
+          "redTeam": {
+            "code": "T1",
+            "name": "T1",
+            "displayName": "T1"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-09-042",
+          "round": 9,
+          "date": "2025-02-09",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Sunday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "HLE",
+            "name": "Hanwha Life Esports",
+            "displayName": "Hanwha Life Esports"
+          },
+          "redTeam": {
+            "code": "LSB",
+            "name": "Liiv SANDBOX",
+            "displayName": "Liiv SANDBOX"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-09-043",
+          "round": 9,
+          "date": "2025-02-12",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Wednesday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "KT",
+            "name": "KT Rolster",
+            "displayName": "KT Rolster"
+          },
+          "redTeam": {
+            "code": "BRO",
+            "name": "OKSavingsBank BRION",
+            "displayName": "OKSavingsBank BRION"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-09-044",
+          "round": 9,
+          "date": "2025-02-12",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Wednesday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "DK",
+            "name": "Dplus KIA",
+            "displayName": "Dplus KIA"
+          },
+          "redTeam": {
+            "code": "NS",
+            "name": "Nongshim RedForce",
+            "displayName": "Nongshim RedForce"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-09-045",
+          "round": 9,
+          "date": "2025-02-13",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Thursday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "DRX",
+            "name": "DRX",
+            "displayName": "DRX"
+          },
+          "redTeam": {
+            "code": "KDF",
+            "name": "Kwangdong Freecs",
+            "displayName": "Kwangdong Freecs"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-10-046",
+          "round": 10,
+          "date": "2025-02-14",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Friday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "LSB",
+            "name": "Liiv SANDBOX",
+            "displayName": "Liiv SANDBOX"
+          },
+          "redTeam": {
+            "code": "GEN",
+            "name": "Gen.G",
+            "displayName": "Gen.G"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-10-047",
+          "round": 10,
+          "date": "2025-02-14",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Friday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "BRO",
+            "name": "OKSavingsBank BRION",
+            "displayName": "OKSavingsBank BRION"
+          },
+          "redTeam": {
+            "code": "T1",
+            "name": "T1",
+            "displayName": "T1"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-10-048",
+          "round": 10,
+          "date": "2025-02-15",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Saturday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "NS",
+            "name": "Nongshim RedForce",
+            "displayName": "Nongshim RedForce"
+          },
+          "redTeam": {
+            "code": "HLE",
+            "name": "Hanwha Life Esports",
+            "displayName": "Hanwha Life Esports"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-10-049",
+          "round": 10,
+          "date": "2025-02-15",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Saturday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "KDF",
+            "name": "Kwangdong Freecs",
+            "displayName": "Kwangdong Freecs"
+          },
+          "redTeam": {
+            "code": "KT",
+            "name": "KT Rolster",
+            "displayName": "KT Rolster"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-10-050",
+          "round": 10,
+          "date": "2025-02-16",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Sunday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "DRX",
+            "name": "DRX",
+            "displayName": "DRX"
+          },
+          "redTeam": {
+            "code": "DK",
+            "name": "Dplus KIA",
+            "displayName": "Dplus KIA"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-11-051",
+          "round": 11,
+          "date": "2025-02-19",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Wednesday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "GEN",
+            "name": "Gen.G",
+            "displayName": "Gen.G"
+          },
+          "redTeam": {
+            "code": "BRO",
+            "name": "OKSavingsBank BRION",
+            "displayName": "OKSavingsBank BRION"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-11-052",
+          "round": 11,
+          "date": "2025-02-19",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Wednesday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "LSB",
+            "name": "Liiv SANDBOX",
+            "displayName": "Liiv SANDBOX"
+          },
+          "redTeam": {
+            "code": "NS",
+            "name": "Nongshim RedForce",
+            "displayName": "Nongshim RedForce"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-11-053",
+          "round": 11,
+          "date": "2025-02-20",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Thursday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "T1",
+            "name": "T1",
+            "displayName": "T1"
+          },
+          "redTeam": {
+            "code": "KDF",
+            "name": "Kwangdong Freecs",
+            "displayName": "Kwangdong Freecs"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-11-054",
+          "round": 11,
+          "date": "2025-02-20",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Thursday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "HLE",
+            "name": "Hanwha Life Esports",
+            "displayName": "Hanwha Life Esports"
+          },
+          "redTeam": {
+            "code": "DRX",
+            "name": "DRX",
+            "displayName": "DRX"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-11-055",
+          "round": 11,
+          "date": "2025-02-21",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Friday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "KT",
+            "name": "KT Rolster",
+            "displayName": "KT Rolster"
+          },
+          "redTeam": {
+            "code": "DK",
+            "name": "Dplus KIA",
+            "displayName": "Dplus KIA"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-12-056",
+          "round": 12,
+          "date": "2025-02-22",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Saturday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "NS",
+            "name": "Nongshim RedForce",
+            "displayName": "Nongshim RedForce"
+          },
+          "redTeam": {
+            "code": "GEN",
+            "name": "Gen.G",
+            "displayName": "Gen.G"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-12-057",
+          "round": 12,
+          "date": "2025-02-22",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Saturday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "KDF",
+            "name": "Kwangdong Freecs",
+            "displayName": "Kwangdong Freecs"
+          },
+          "redTeam": {
+            "code": "BRO",
+            "name": "OKSavingsBank BRION",
+            "displayName": "OKSavingsBank BRION"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-12-058",
+          "round": 12,
+          "date": "2025-02-23",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Sunday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "DRX",
+            "name": "DRX",
+            "displayName": "DRX"
+          },
+          "redTeam": {
+            "code": "LSB",
+            "name": "Liiv SANDBOX",
+            "displayName": "Liiv SANDBOX"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-12-059",
+          "round": 12,
+          "date": "2025-02-23",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Sunday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "DK",
+            "name": "Dplus KIA",
+            "displayName": "Dplus KIA"
+          },
+          "redTeam": {
+            "code": "T1",
+            "name": "T1",
+            "displayName": "T1"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-12-060",
+          "round": 12,
+          "date": "2025-02-26",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Wednesday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "KT",
+            "name": "KT Rolster",
+            "displayName": "KT Rolster"
+          },
+          "redTeam": {
+            "code": "HLE",
+            "name": "Hanwha Life Esports",
+            "displayName": "Hanwha Life Esports"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-13-061",
+          "round": 13,
+          "date": "2025-02-27",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Thursday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "GEN",
+            "name": "Gen.G",
+            "displayName": "Gen.G"
+          },
+          "redTeam": {
+            "code": "KDF",
+            "name": "Kwangdong Freecs",
+            "displayName": "Kwangdong Freecs"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-13-062",
+          "round": 13,
+          "date": "2025-02-27",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Thursday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "NS",
+            "name": "Nongshim RedForce",
+            "displayName": "Nongshim RedForce"
+          },
+          "redTeam": {
+            "code": "DRX",
+            "name": "DRX",
+            "displayName": "DRX"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-13-063",
+          "round": 13,
+          "date": "2025-02-28",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Friday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "BRO",
+            "name": "OKSavingsBank BRION",
+            "displayName": "OKSavingsBank BRION"
+          },
+          "redTeam": {
+            "code": "DK",
+            "name": "Dplus KIA",
+            "displayName": "Dplus KIA"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-13-064",
+          "round": 13,
+          "date": "2025-02-28",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Friday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "LSB",
+            "name": "Liiv SANDBOX",
+            "displayName": "Liiv SANDBOX"
+          },
+          "redTeam": {
+            "code": "KT",
+            "name": "KT Rolster",
+            "displayName": "KT Rolster"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-13-065",
+          "round": 13,
+          "date": "2025-03-01",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Saturday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "T1",
+            "name": "T1",
+            "displayName": "T1"
+          },
+          "redTeam": {
+            "code": "HLE",
+            "name": "Hanwha Life Esports",
+            "displayName": "Hanwha Life Esports"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-14-066",
+          "round": 14,
+          "date": "2025-03-02",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Sunday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "DRX",
+            "name": "DRX",
+            "displayName": "DRX"
+          },
+          "redTeam": {
+            "code": "GEN",
+            "name": "Gen.G",
+            "displayName": "Gen.G"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-14-067",
+          "round": 14,
+          "date": "2025-03-02",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Sunday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "DK",
+            "name": "Dplus KIA",
+            "displayName": "Dplus KIA"
+          },
+          "redTeam": {
+            "code": "KDF",
+            "name": "Kwangdong Freecs",
+            "displayName": "Kwangdong Freecs"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-14-068",
+          "round": 14,
+          "date": "2025-03-05",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Wednesday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "KT",
+            "name": "KT Rolster",
+            "displayName": "KT Rolster"
+          },
+          "redTeam": {
+            "code": "NS",
+            "name": "Nongshim RedForce",
+            "displayName": "Nongshim RedForce"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-14-069",
+          "round": 14,
+          "date": "2025-03-05",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Wednesday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "HLE",
+            "name": "Hanwha Life Esports",
+            "displayName": "Hanwha Life Esports"
+          },
+          "redTeam": {
+            "code": "BRO",
+            "name": "OKSavingsBank BRION",
+            "displayName": "OKSavingsBank BRION"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-14-070",
+          "round": 14,
+          "date": "2025-03-06",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Thursday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "T1",
+            "name": "T1",
+            "displayName": "T1"
+          },
+          "redTeam": {
+            "code": "LSB",
+            "name": "Liiv SANDBOX",
+            "displayName": "Liiv SANDBOX"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-15-071",
+          "round": 15,
+          "date": "2025-03-07",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Friday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "GEN",
+            "name": "Gen.G",
+            "displayName": "Gen.G"
+          },
+          "redTeam": {
+            "code": "DK",
+            "name": "Dplus KIA",
+            "displayName": "Dplus KIA"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-15-072",
+          "round": 15,
+          "date": "2025-03-07",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Friday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "DRX",
+            "name": "DRX",
+            "displayName": "DRX"
+          },
+          "redTeam": {
+            "code": "KT",
+            "name": "KT Rolster",
+            "displayName": "KT Rolster"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-15-073",
+          "round": 15,
+          "date": "2025-03-08",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Saturday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "KDF",
+            "name": "Kwangdong Freecs",
+            "displayName": "Kwangdong Freecs"
+          },
+          "redTeam": {
+            "code": "HLE",
+            "name": "Hanwha Life Esports",
+            "displayName": "Hanwha Life Esports"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-15-074",
+          "round": 15,
+          "date": "2025-03-08",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Saturday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "NS",
+            "name": "Nongshim RedForce",
+            "displayName": "Nongshim RedForce"
+          },
+          "redTeam": {
+            "code": "T1",
+            "name": "T1",
+            "displayName": "T1"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-15-075",
+          "round": 15,
+          "date": "2025-03-09",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Sunday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "BRO",
+            "name": "OKSavingsBank BRION",
+            "displayName": "OKSavingsBank BRION"
+          },
+          "redTeam": {
+            "code": "LSB",
+            "name": "Liiv SANDBOX",
+            "displayName": "Liiv SANDBOX"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-16-076",
+          "round": 16,
+          "date": "2025-03-12",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Wednesday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "KT",
+            "name": "KT Rolster",
+            "displayName": "KT Rolster"
+          },
+          "redTeam": {
+            "code": "GEN",
+            "name": "Gen.G",
+            "displayName": "Gen.G"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-16-077",
+          "round": 16,
+          "date": "2025-03-12",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Wednesday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "HLE",
+            "name": "Hanwha Life Esports",
+            "displayName": "Hanwha Life Esports"
+          },
+          "redTeam": {
+            "code": "DK",
+            "name": "Dplus KIA",
+            "displayName": "Dplus KIA"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-16-078",
+          "round": 16,
+          "date": "2025-03-13",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Thursday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "T1",
+            "name": "T1",
+            "displayName": "T1"
+          },
+          "redTeam": {
+            "code": "DRX",
+            "name": "DRX",
+            "displayName": "DRX"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-16-079",
+          "round": 16,
+          "date": "2025-03-13",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Thursday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "LSB",
+            "name": "Liiv SANDBOX",
+            "displayName": "Liiv SANDBOX"
+          },
+          "redTeam": {
+            "code": "KDF",
+            "name": "Kwangdong Freecs",
+            "displayName": "Kwangdong Freecs"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-16-080",
+          "round": 16,
+          "date": "2025-03-14",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Friday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "BRO",
+            "name": "OKSavingsBank BRION",
+            "displayName": "OKSavingsBank BRION"
+          },
+          "redTeam": {
+            "code": "NS",
+            "name": "Nongshim RedForce",
+            "displayName": "Nongshim RedForce"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-17-081",
+          "round": 17,
+          "date": "2025-03-15",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Saturday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "GEN",
+            "name": "Gen.G",
+            "displayName": "Gen.G"
+          },
+          "redTeam": {
+            "code": "HLE",
+            "name": "Hanwha Life Esports",
+            "displayName": "Hanwha Life Esports"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-17-082",
+          "round": 17,
+          "date": "2025-03-15",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Saturday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "KT",
+            "name": "KT Rolster",
+            "displayName": "KT Rolster"
+          },
+          "redTeam": {
+            "code": "T1",
+            "name": "T1",
+            "displayName": "T1"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-17-083",
+          "round": 17,
+          "date": "2025-03-16",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Sunday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "DK",
+            "name": "Dplus KIA",
+            "displayName": "Dplus KIA"
+          },
+          "redTeam": {
+            "code": "LSB",
+            "name": "Liiv SANDBOX",
+            "displayName": "Liiv SANDBOX"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-17-084",
+          "round": 17,
+          "date": "2025-03-16",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Sunday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "DRX",
+            "name": "DRX",
+            "displayName": "DRX"
+          },
+          "redTeam": {
+            "code": "BRO",
+            "name": "OKSavingsBank BRION",
+            "displayName": "OKSavingsBank BRION"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-17-085",
+          "round": 17,
+          "date": "2025-03-19",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Wednesday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "KDF",
+            "name": "Kwangdong Freecs",
+            "displayName": "Kwangdong Freecs"
+          },
+          "redTeam": {
+            "code": "NS",
+            "name": "Nongshim RedForce",
+            "displayName": "Nongshim RedForce"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-18-086",
+          "round": 18,
+          "date": "2025-03-20",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Thursday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "T1",
+            "name": "T1",
+            "displayName": "T1"
+          },
+          "redTeam": {
+            "code": "GEN",
+            "name": "Gen.G",
+            "displayName": "Gen.G"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-18-087",
+          "round": 18,
+          "date": "2025-03-20",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Thursday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "LSB",
+            "name": "Liiv SANDBOX",
+            "displayName": "Liiv SANDBOX"
+          },
+          "redTeam": {
+            "code": "HLE",
+            "name": "Hanwha Life Esports",
+            "displayName": "Hanwha Life Esports"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-18-088",
+          "round": 18,
+          "date": "2025-03-21",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Friday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "BRO",
+            "name": "OKSavingsBank BRION",
+            "displayName": "OKSavingsBank BRION"
+          },
+          "redTeam": {
+            "code": "KT",
+            "name": "KT Rolster",
+            "displayName": "KT Rolster"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-18-089",
+          "round": 18,
+          "date": "2025-03-21",
+          "startTime": "19:30",
+          "stage": "Regular Season Week 1 Friday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "NS",
+            "name": "Nongshim RedForce",
+            "displayName": "Nongshim RedForce"
+          },
+          "redTeam": {
+            "code": "DK",
+            "name": "Dplus KIA",
+            "displayName": "Dplus KIA"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        },
+        {
+          "id": "SPR-18-090",
+          "round": 18,
+          "date": "2025-03-22",
+          "startTime": "17:00",
+          "stage": "Regular Season Week 1 Saturday",
+          "patch": "14.1",
+          "venue": "LoL PARK, Seoul",
+          "blueTeam": {
+            "code": "KDF",
+            "name": "Kwangdong Freecs",
+            "displayName": "Kwangdong Freecs"
+          },
+          "redTeam": {
+            "code": "DRX",
+            "name": "DRX",
+            "displayName": "DRX"
+          },
+          "broadcast": [
+            "Twitch",
+            "YouTube",
+            "AfreecaTV"
+          ],
+          "result": {
+            "winner": null,
+            "score": "TBD"
+          }
+        }
+      ]
+    }
+  ]
+}

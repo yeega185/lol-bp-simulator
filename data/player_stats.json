@@ -1,0 +1,1051 @@
+[
+  {
+    "region": "LCK",
+    "displayName": "LCK - 韓國",
+    "season": "2025 春季預估",
+    "teams": [
+      {
+        "code": "GEN",
+        "name": "Gen.G",
+        "displayName": "Gen.G",
+        "record": "2024 夏季季後賽冠軍",
+        "notes": "2025 春季首發預估陣容",
+        "players": [
+          {
+            "name": "Kiin",
+            "role": "Top",
+            "pickRate": 48.2,
+            "banRate": 13.1,
+            "signatureChamps": [
+              "Aatrox",
+              "Gnar",
+              "Renekton"
+            ]
+          },
+          {
+            "name": "Canyon",
+            "role": "Jungle",
+            "pickRate": 55.0,
+            "banRate": 21.6,
+            "signatureChamps": [
+              "Nidalee",
+              "LeeSin",
+              "Viego"
+            ]
+          },
+          {
+            "name": "Chovy",
+            "role": "Mid",
+            "pickRate": 59.3,
+            "banRate": 24.9,
+            "signatureChamps": [
+              "Azir",
+              "Orianna",
+              "Sylas"
+            ]
+          },
+          {
+            "name": "Peyz",
+            "role": "Bot",
+            "pickRate": 50.1,
+            "banRate": 9.2,
+            "signatureChamps": [
+              "Aphelios",
+              "Jinx",
+              "Kaisa"
+            ]
+          },
+          {
+            "name": "Lehends",
+            "role": "Support",
+            "pickRate": 46.5,
+            "banRate": 8.9,
+            "signatureChamps": [
+              "Rakan",
+              "Nautilus",
+              "Rell"
+            ]
+          }
+        ]
+      },
+      {
+        "code": "T1",
+        "name": "T1",
+        "displayName": "T1",
+        "record": "2024 世界賽冠軍",
+        "notes": "保留四冠班底",
+        "players": [
+          {
+            "name": "Zeus",
+            "role": "Top",
+            "pickRate": 44.7,
+            "banRate": 11.5,
+            "signatureChamps": [
+              "Jayce",
+              "Gwen",
+              "KSante"
+            ]
+          },
+          {
+            "name": "Oner",
+            "role": "Jungle",
+            "pickRate": 45.9,
+            "banRate": 14.1,
+            "signatureChamps": [
+              "LeeSin",
+              "Sejuani",
+              "Vi"
+            ]
+          },
+          {
+            "name": "Faker",
+            "role": "Mid",
+            "pickRate": 52.6,
+            "banRate": 23.3,
+            "signatureChamps": [
+              "Ahri",
+              "Orianna",
+              "Sylas"
+            ]
+          },
+          {
+            "name": "Gumayusi",
+            "role": "Bot",
+            "pickRate": 47.4,
+            "banRate": 7.5,
+            "signatureChamps": [
+              "Jinx",
+              "Aphelios",
+              "Xayah"
+            ]
+          },
+          {
+            "name": "Keria",
+            "role": "Support",
+            "pickRate": 51.2,
+            "banRate": 10.6,
+            "signatureChamps": [
+              "Braum",
+              "Renata",
+              "Lux"
+            ]
+          }
+        ]
+      },
+      {
+        "code": "HLE",
+        "name": "Hanwha Life Esports",
+        "displayName": "Hanwha Life",
+        "record": "2024 夏季四強",
+        "notes": "Viper 回歸後續約，Peanut 加盟",
+        "players": [
+          {
+            "name": "Kingen",
+            "role": "Top",
+            "pickRate": 41.8,
+            "banRate": 10.4,
+            "signatureChamps": [
+              "Camille",
+              "Renekton",
+              "Gnar"
+            ]
+          },
+          {
+            "name": "Peanut",
+            "role": "Jungle",
+            "pickRate": 49.6,
+            "banRate": 16.8,
+            "signatureChamps": [
+              "Sejuani",
+              "JarvanIV",
+              "Poppy"
+            ]
+          },
+          {
+            "name": "Zeka",
+            "role": "Mid",
+            "pickRate": 47.9,
+            "banRate": 18.5,
+            "signatureChamps": [
+              "Akali",
+              "Azir",
+              "Sylas"
+            ]
+          },
+          {
+            "name": "Viper",
+            "role": "Bot",
+            "pickRate": 51.7,
+            "banRate": 8.8,
+            "signatureChamps": [
+              "Aphelios",
+              "Kaisa",
+              "Zeri"
+            ]
+          },
+          {
+            "name": "Delight",
+            "role": "Support",
+            "pickRate": 43.3,
+            "banRate": 7.2,
+            "signatureChamps": [
+              "Rakan",
+              "Braum",
+              "Nautilus"
+            ]
+          }
+        ]
+      },
+      {
+        "code": "KT",
+        "name": "KT Rolster",
+        "displayName": "KT Rolster",
+        "record": "2024 夏季例行賽第三",
+        "notes": "Pyosik 重返 LCK",
+        "players": [
+          {
+            "name": "Doran",
+            "role": "Top",
+            "pickRate": 42.5,
+            "banRate": 9.7,
+            "signatureChamps": [
+              "Gnar",
+              "Rumble",
+              "Camille"
+            ]
+          },
+          {
+            "name": "Pyosik",
+            "role": "Jungle",
+            "pickRate": 46.8,
+            "banRate": 15.9,
+            "signatureChamps": [
+              "Kindred",
+              "Viego",
+              "Vi"
+            ]
+          },
+          {
+            "name": "Bdd",
+            "role": "Mid",
+            "pickRate": 50.4,
+            "banRate": 19.2,
+            "signatureChamps": [
+              "Azir",
+              "Taliyah",
+              "Orianna"
+            ]
+          },
+          {
+            "name": "Aiming",
+            "role": "Bot",
+            "pickRate": 48.6,
+            "banRate": 8.3,
+            "signatureChamps": [
+              "Aphelios",
+              "Jinx",
+              "Xayah"
+            ]
+          },
+          {
+            "name": "Life",
+            "role": "Support",
+            "pickRate": 41.2,
+            "banRate": 6.4,
+            "signatureChamps": [
+              "Rakan",
+              "Thresh",
+              "Nautilus"
+            ]
+          }
+        ]
+      },
+      {
+        "code": "DK",
+        "name": "Dplus KIA",
+        "displayName": "Dplus KIA",
+        "record": "2024 夏季季後賽第五",
+        "notes": "Lucid 搭配 ShowMaker-Deft",
+        "players": [
+          {
+            "name": "Canna",
+            "role": "Top",
+            "pickRate": 43.7,
+            "banRate": 11.3,
+            "signatureChamps": [
+              "KSante",
+              "Jayce",
+              "Gnar"
+            ]
+          },
+          {
+            "name": "Lucid",
+            "role": "Jungle",
+            "pickRate": 38.9,
+            "banRate": 12.1,
+            "signatureChamps": [
+              "LeeSin",
+              "Viego",
+              "XinZhao"
+            ]
+          },
+          {
+            "name": "ShowMaker",
+            "role": "Mid",
+            "pickRate": 53.1,
+            "banRate": 20.7,
+            "signatureChamps": [
+              "Leblanc",
+              "Orianna",
+              "Sylas"
+            ]
+          },
+          {
+            "name": "Deft",
+            "role": "Bot",
+            "pickRate": 45.8,
+            "banRate": 7.9,
+            "signatureChamps": [
+              "Ezreal",
+              "Jinx",
+              "Kaisa"
+            ]
+          },
+          {
+            "name": "Kellin",
+            "role": "Support",
+            "pickRate": 42.6,
+            "banRate": 6.8,
+            "signatureChamps": [
+              "Braum",
+              "Rell",
+              "Heimerdinger"
+            ]
+          }
+        ]
+      },
+      {
+        "code": "DRX",
+        "name": "DRX",
+        "displayName": "DRX",
+        "record": "2024 夏季例行賽第七",
+        "notes": "以年輕陣容磨合",
+        "players": [
+          {
+            "name": "Rascal",
+            "role": "Top",
+            "pickRate": 39.4,
+            "banRate": 8.6,
+            "signatureChamps": [
+              "Gnar",
+              "Renekton",
+              "Sion"
+            ]
+          },
+          {
+            "name": "Croco",
+            "role": "Jungle",
+            "pickRate": 37.5,
+            "banRate": 11.4,
+            "signatureChamps": [
+              "LeeSin",
+              "Poppy",
+              "Vi"
+            ]
+          },
+          {
+            "name": "FATE",
+            "role": "Mid",
+            "pickRate": 41.9,
+            "banRate": 12.6,
+            "signatureChamps": [
+              "Azir",
+              "Ahri",
+              "Jayce"
+            ]
+          },
+          {
+            "name": "deokdam",
+            "role": "Bot",
+            "pickRate": 44.1,
+            "banRate": 6.9,
+            "signatureChamps": [
+              "Jinx",
+              "Aphelios",
+              "Lucian"
+            ]
+          },
+          {
+            "name": "BeryL",
+            "role": "Support",
+            "pickRate": 43.0,
+            "banRate": 6.2,
+            "signatureChamps": [
+              "Heimerdinger",
+              "Nautilus",
+              "Rakan"
+            ]
+          }
+        ]
+      },
+      {
+        "code": "KDF",
+        "name": "Kwangdong Freecs",
+        "displayName": "Kwangdong Freecs",
+        "record": "2024 夏季例行賽第八",
+        "notes": "持續栽培青訓雙 C",
+        "players": [
+          {
+            "name": "DuDu",
+            "role": "Top",
+            "pickRate": 36.8,
+            "banRate": 7.9,
+            "signatureChamps": [
+              "Gnar",
+              "Camille",
+              "Jax"
+            ]
+          },
+          {
+            "name": "YoungJae",
+            "role": "Jungle",
+            "pickRate": 35.4,
+            "banRate": 9.7,
+            "signatureChamps": [
+              "Vi",
+              "Wukong",
+              "Sejuani"
+            ]
+          },
+          {
+            "name": "BuLLDoG",
+            "role": "Mid",
+            "pickRate": 38.6,
+            "banRate": 11.2,
+            "signatureChamps": [
+              "Ahri",
+              "Taliyah",
+              "Yone"
+            ]
+          },
+          {
+            "name": "Taeyoon",
+            "role": "Bot",
+            "pickRate": 40.7,
+            "banRate": 6.1,
+            "signatureChamps": [
+              "Kaisa",
+              "Aphelios",
+              "Xayah"
+            ]
+          },
+          {
+            "name": "Moham",
+            "role": "Support",
+            "pickRate": 34.9,
+            "banRate": 5.4,
+            "signatureChamps": [
+              "Rakan",
+              "Lulu",
+              "Alistar"
+            ]
+          }
+        ]
+      },
+      {
+        "code": "NS",
+        "name": "Nongshim RedForce",
+        "displayName": "Nongshim RedForce",
+        "record": "2024 夏季例行賽第九",
+        "notes": "持續磨合年輕上路和打野",
+        "players": [
+          {
+            "name": "DnDn",
+            "role": "Top",
+            "pickRate": 33.5,
+            "banRate": 6.8,
+            "signatureChamps": [
+              "Sion",
+              "Gnar",
+              "Camille"
+            ]
+          },
+          {
+            "name": "Sylvie",
+            "role": "Jungle",
+            "pickRate": 34.1,
+            "banRate": 8.7,
+            "signatureChamps": [
+              "LeeSin",
+              "JarvanIV",
+              "Poppy"
+            ]
+          },
+          {
+            "name": "Fiesta",
+            "role": "Mid",
+            "pickRate": 40.2,
+            "banRate": 10.9,
+            "signatureChamps": [
+              "Akali",
+              "Sylas",
+              "Ahri"
+            ]
+          },
+          {
+            "name": "Jiwoo",
+            "role": "Bot",
+            "pickRate": 38.7,
+            "banRate": 5.6,
+            "signatureChamps": [
+              "Zeri",
+              "Aphelios",
+              "Jinx"
+            ]
+          },
+          {
+            "name": "Peter",
+            "role": "Support",
+            "pickRate": 33.8,
+            "banRate": 4.9,
+            "signatureChamps": [
+              "Rakan",
+              "Nautilus",
+              "Thresh"
+            ]
+          }
+        ]
+      },
+      {
+        "code": "BRO",
+        "name": "OKSavingsBank BRION",
+        "displayName": "OKSavingsBank BRION",
+        "record": "2024 夏季例行賽第十",
+        "notes": "新贊助後維持原班底",
+        "players": [
+          {
+            "name": "Morgan",
+            "role": "Top",
+            "pickRate": 32.6,
+            "banRate": 6.2,
+            "signatureChamps": [
+              "Gnar",
+              "Ornn",
+              "Renekton"
+            ]
+          },
+          {
+            "name": "Raptor",
+            "role": "Jungle",
+            "pickRate": 31.9,
+            "banRate": 8.1,
+            "signatureChamps": [
+              "Vi",
+              "Sejuani",
+              "Poppy"
+            ]
+          },
+          {
+            "name": "Karis",
+            "role": "Mid",
+            "pickRate": 34.7,
+            "banRate": 9.8,
+            "signatureChamps": [
+              "Orianna",
+              "Ahri",
+              "Azir"
+            ]
+          },
+          {
+            "name": "Hena",
+            "role": "Bot",
+            "pickRate": 36.4,
+            "banRate": 5.1,
+            "signatureChamps": [
+              "Aphelios",
+              "Jinx",
+              "Varus"
+            ]
+          },
+          {
+            "name": "Effort",
+            "role": "Support",
+            "pickRate": 32.1,
+            "banRate": 4.6,
+            "signatureChamps": [
+              "Thresh",
+              "Nautilus",
+              "Rakan"
+            ]
+          }
+        ]
+      },
+      {
+        "code": "LSB",
+        "name": "Liiv SANDBOX",
+        "displayName": "Liiv SANDBOX",
+        "record": "2024 夏季例行賽第六",
+        "notes": "維持 Clozer 核心進攻體系",
+        "players": [
+          {
+            "name": "Howling",
+            "role": "Top",
+            "pickRate": 37.2,
+            "banRate": 7.5,
+            "signatureChamps": [
+              "Gnar",
+              "KSante",
+              "Camille"
+            ]
+          },
+          {
+            "name": "Willer",
+            "role": "Jungle",
+            "pickRate": 39.3,
+            "banRate": 10.6,
+            "signatureChamps": [
+              "LeeSin",
+              "Viego",
+              "Poppy"
+            ]
+          },
+          {
+            "name": "Clozer",
+            "role": "Mid",
+            "pickRate": 48.5,
+            "banRate": 17.8,
+            "signatureChamps": [
+              "Akali",
+              "Yone",
+              "Ahri"
+            ]
+          },
+          {
+            "name": "Envyy",
+            "role": "Bot",
+            "pickRate": 43.1,
+            "banRate": 6.7,
+            "signatureChamps": [
+              "Jinx",
+              "Aphelios",
+              "Zeri"
+            ]
+          },
+          {
+            "name": "Kael",
+            "role": "Support",
+            "pickRate": 35.9,
+            "banRate": 5.8,
+            "signatureChamps": [
+              "Rakan",
+              "Braum",
+              "Lulu"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "LPL",
+    "displayName": "LPL - 中國",
+    "teams": [
+      {
+        "code": "BLG",
+        "name": "Bilibili Gaming",
+        "displayName": "Bilibili Gaming",
+        "record": "夏季例行賽第一",
+        "notes": "近期 10 場勝率 75%",
+        "players": [
+          {
+            "name": "Bin",
+            "role": "Top",
+            "pickRate": 48.9,
+            "banRate": 14.2,
+            "signatureChamps": [
+              "Jax",
+              "Kennen",
+              "Fiora"
+            ]
+          },
+          {
+            "name": "Xun",
+            "role": "Jungle",
+            "pickRate": 45.3,
+            "banRate": 16.4,
+            "signatureChamps": [
+              "LeeSin",
+              "Kindred",
+              "Viego"
+            ]
+          },
+          {
+            "name": "Knight",
+            "role": "Mid",
+            "pickRate": 56.1,
+            "banRate": 25.8,
+            "signatureChamps": [
+              "Azir",
+              "Jayce",
+              "Orianna"
+            ]
+          },
+          {
+            "name": "Elk",
+            "role": "Bot",
+            "pickRate": 52.4,
+            "banRate": 12.7,
+            "signatureChamps": [
+              "Zeri",
+              "Aphelios",
+              "Kaisa"
+            ]
+          },
+          {
+            "name": "ON",
+            "role": "Support",
+            "pickRate": 47.0,
+            "banRate": 9.2,
+            "signatureChamps": [
+              "Rakan",
+              "Nautilus",
+              "Alistar"
+            ]
+          }
+        ]
+      },
+      {
+        "code": "TES",
+        "name": "Top Esports",
+        "displayName": "Top Esports",
+        "record": "季後賽四強",
+        "notes": "近期 10 場勝率 60%",
+        "players": [
+          {
+            "name": "369",
+            "role": "Top",
+            "pickRate": 40.2,
+            "banRate": 10.5,
+            "signatureChamps": [
+              "Renekton",
+              "KSante",
+              "Gnar"
+            ]
+          },
+          {
+            "name": "Tian",
+            "role": "Jungle",
+            "pickRate": 43.7,
+            "banRate": 14.6,
+            "signatureChamps": [
+              "LeeSin",
+              "Sejuani",
+              "JarvanIV"
+            ]
+          },
+          {
+            "name": "Creme",
+            "role": "Mid",
+            "pickRate": 48.4,
+            "banRate": 19.9,
+            "signatureChamps": [
+              "Azir",
+              "Akali",
+              "Neeko"
+            ]
+          },
+          {
+            "name": "JackeyLove",
+            "role": "Bot",
+            "pickRate": 50.1,
+            "banRate": 11.3,
+            "signatureChamps": [
+              "Xayah",
+              "Varus",
+              "Aphelios"
+            ]
+          },
+          {
+            "name": "Meiko",
+            "role": "Support",
+            "pickRate": 44.5,
+            "banRate": 8.8,
+            "signatureChamps": [
+              "Thresh",
+              "Lulu",
+              "Milio"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "LEC",
+    "displayName": "LEC - 歐洲",
+    "teams": [
+      {
+        "code": "G2",
+        "name": "G2 Esports",
+        "displayName": "G2 Esports",
+        "record": "LEC 夏季冠軍",
+        "notes": "近期 10 場勝率 78%",
+        "players": [
+          {
+            "name": "BrokenBlade",
+            "role": "Top",
+            "pickRate": 46.5,
+            "banRate": 12.1,
+            "signatureChamps": [
+              "Yone",
+              "Olaf",
+              "Kled"
+            ]
+          },
+          {
+            "name": "Yike",
+            "role": "Jungle",
+            "pickRate": 42.9,
+            "banRate": 11.6,
+            "signatureChamps": [
+              "Belveth",
+              "Kayn",
+              "Viego"
+            ]
+          },
+          {
+            "name": "Caps",
+            "role": "Mid",
+            "pickRate": 55.0,
+            "banRate": 23.7,
+            "signatureChamps": [
+              "Tristana",
+              "Ahri",
+              "Neeko"
+            ]
+          },
+          {
+            "name": "Hans sama",
+            "role": "Bot",
+            "pickRate": 48.8,
+            "banRate": 10.4,
+            "signatureChamps": [
+              "Draven",
+              "Kalista",
+              "Varus"
+            ]
+          },
+          {
+            "name": "Mikyx",
+            "role": "Support",
+            "pickRate": 49.9,
+            "banRate": 9.7,
+            "signatureChamps": [
+              "Rakan",
+              "Nautilus",
+              "Alistar"
+            ]
+          }
+        ]
+      },
+      {
+        "code": "FNC",
+        "name": "Fnatic",
+        "displayName": "Fnatic",
+        "record": "LEC 夏季亞軍",
+        "notes": "近期 10 場勝率 65%",
+        "players": [
+          {
+            "name": "Oscarinin",
+            "role": "Top",
+            "pickRate": 38.4,
+            "banRate": 8.5,
+            "signatureChamps": [
+              "Gnar",
+              "Kennen",
+              "Renekton"
+            ]
+          },
+          {
+            "name": "Razork",
+            "role": "Jungle",
+            "pickRate": 41.6,
+            "banRate": 9.9,
+            "signatureChamps": [
+              "Vi",
+              "Sejuani",
+              "Poppy"
+            ]
+          },
+          {
+            "name": "Humanoid",
+            "role": "Mid",
+            "pickRate": 50.7,
+            "banRate": 18.2,
+            "signatureChamps": [
+              "Orianna",
+              "Akali",
+              "Azir"
+            ]
+          },
+          {
+            "name": "Noah",
+            "role": "Bot",
+            "pickRate": 44.9,
+            "banRate": 7.4,
+            "signatureChamps": [
+              "Xayah",
+              "Kaisa",
+              "Zeri"
+            ]
+          },
+          {
+            "name": "Jun",
+            "role": "Support",
+            "pickRate": 43.5,
+            "banRate": 6.9,
+            "signatureChamps": [
+              "Rakan",
+              "Braum",
+              "Renata"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "LCS",
+    "displayName": "LCS - 北美",
+    "teams": [
+      {
+        "code": "TL",
+        "name": "Team Liquid",
+        "displayName": "Team Liquid",
+        "record": "LCS 夏季冠軍",
+        "notes": "近期 10 場勝率 72%",
+        "players": [
+          {
+            "name": "Impact",
+            "role": "Top",
+            "pickRate": 41.1,
+            "banRate": 9.6,
+            "signatureChamps": [
+              "Ornn",
+              "Malphite",
+              "Renekton"
+            ]
+          },
+          {
+            "name": "UmTi",
+            "role": "Jungle",
+            "pickRate": 40.8,
+            "banRate": 11.2,
+            "signatureChamps": [
+              "Sejuani",
+              "Viego",
+              "JarvanIV"
+            ]
+          },
+          {
+            "name": "APA",
+            "role": "Mid",
+            "pickRate": 44.2,
+            "banRate": 15.7,
+            "signatureChamps": [
+              "Tristana",
+              "Orianna",
+              "Jayce"
+            ]
+          },
+          {
+            "name": "Yeon",
+            "role": "Bot",
+            "pickRate": 46.9,
+            "banRate": 8.1,
+            "signatureChamps": [
+              "Zeri",
+              "Kaisa",
+              "Lucian"
+            ]
+          },
+          {
+            "name": "CoreJJ",
+            "role": "Support",
+            "pickRate": 48.3,
+            "banRate": 9.8,
+            "signatureChamps": [
+              "Nautilus",
+              "Thresh",
+              "Rell"
+            ]
+          }
+        ]
+      },
+      {
+        "code": "C9",
+        "name": "Cloud9",
+        "displayName": "Cloud9",
+        "record": "LCS 夏季亞軍",
+        "notes": "近期 10 場勝率 62%",
+        "players": [
+          {
+            "name": "Fudge",
+            "role": "Top",
+            "pickRate": 39.7,
+            "banRate": 8.9,
+            "signatureChamps": [
+              "KSante",
+              "Gnar",
+              "Gwen"
+            ]
+          },
+          {
+            "name": "Blaber",
+            "role": "Jungle",
+            "pickRate": 43.2,
+            "banRate": 13.5,
+            "signatureChamps": [
+              "Nidalee",
+              "LeeSin",
+              "Poppy"
+            ]
+          },
+          {
+            "name": "Jojopyun",
+            "role": "Mid",
+            "pickRate": 49.0,
+            "banRate": 17.4,
+            "signatureChamps": [
+              "Azir",
+              "Ahri",
+              "Akali"
+            ]
+          },
+          {
+            "name": "Berserker",
+            "role": "Bot",
+            "pickRate": 45.6,
+            "banRate": 9.1,
+            "signatureChamps": [
+              "Zeri",
+              "Aphelios",
+              "Kaisa"
+            ]
+          },
+          {
+            "name": "Vulcan",
+            "role": "Support",
+            "pickRate": 42.7,
+            "banRate": 7.5,
+            "signatureChamps": [
+              "Rakan",
+              "Alistar",
+              "Rell"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

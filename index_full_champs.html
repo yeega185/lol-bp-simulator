@@ -292,46 +292,15 @@
     </div>
 
     <script>
-        // Global constant for Data Dragon version
-        const DDRAGON_VERSION = '14.19.1';
-        const getChampionIconUrl = (id) => 
-            `https://ddragon.leagueoflegends.com/cdn/${DDRAGON_VERSION}/img/champion/${id}.png`;
+        // Data Dragon configuration & dynamic champion roster state
+        const DEFAULT_DDRAGON_VERSION = '14.19.1';
+        let ddragonVersion = DEFAULT_DDRAGON_VERSION;
+        const getChampionIconUrl = (id) =>
+            `https://ddragon.leagueoflegends.com/cdn/${ddragonVersion}/img/champion/${id}.png`;
 
-        // 英雄數據 (略)
-        // 英雄數據改為動態載入（自 Data Dragon）
-let champions = []; // 由 loadChampions() 取得
-
-async function loadChampions() {
-    // 依序嘗試繁中與英文
-    const locales = ['zh_TW', 'en_US'];
-    let loaded = false;
-    for (const loc of locales) {
-        try {
-            const url = `https://ddragon.leagueoflegends.com/cdn/${DDRAGON_VERSION}/data/${loc}/champion.json`;
-            const res = await fetch(url, { cache: 'force-cache' });
-            if (!res.ok) throw new Error(`HTTP ${res.status}`);
-            const data = await res.json();
-            // 轉為 { id: 'Aatrox', name: '厄薩斯' } 之類
-            champions = Object.values(data.data).map(c => ({
-                id: c.id,
-                name: c.name
-            }));
-            // 以名稱排序，瀏覽體驗更好
-            champions.sort((a, b) => a.name.localeCompare(b.name, 'zh-Hant'));
-            loaded = true;
-            console.log(`[DDragon] Champions loaded: ${champions.length} (${loc})`);
-            break;
-        } catch (e) {
-            console.warn(`[DDragon] Load failed for locale ${loc}:`, e);
-        }
-    }
-    if (!loaded) {
-        // 最後手段：簡短內建清單（避免完全無法使用）
-        champions = [{ id: 'Aatrox', name: 'Aatrox' }, { id: 'Ahri', name: 'Ahri' }, { id: 'Zed', name: 'Zed' }];
-        console.warn('[DDragon] Fallback champions list used.');
-    }
-}
-        
+        let champions = [];
+        let championLoadStatus = 'idle';
+        let championLoadErrorMessage = '';
         // 競技 B/P 流程 (20 步) - 根據使用者要求更新
         const DRAFT_FLOW = [
             // Phase 1: 藍紅輪流 Ban 3 隻 (共 6 Ban)
@@ -389,13 +358,102 @@ async function loadChampions() {
         const phaseText = document.getElementById('current-phase-text');
         const startButton = document.getElementById('startButton');
         const searchInput = document.getElementById('champion-search');
+        const selectMessage = document.getElementById('select-message');
         const winnerButtons = document.getElementById('winner-buttons');
         const seriesHistoryLog = document.getElementById('series-history-log');
+
+        if (startButton) {
+            startButton.disabled = true;
+            startButton.textContent = '載入英雄資料中...';
+        }
+
+        if (selectMessage) {
+            selectMessage.textContent = '英雄資料載入中...';
+        }
+
+        async function loadChampionRoster() {
+            if (!championGrid) return;
+
+            championLoadStatus = 'loading';
+            championLoadErrorMessage = '';
+            renderChampions();
+
+            if (startButton) {
+                startButton.disabled = true;
+                startButton.textContent = '載入英雄資料中...';
+            }
+
+            if (selectMessage) {
+                selectMessage.textContent = '英雄資料載入中...';
+            }
+
+            try {
+                const versionsResponse = await fetch('https://ddragon.leagueoflegends.com/api/versions.json', {
+                    cache: 'no-store',
+                });
+                if (!versionsResponse.ok) {
+                    throw new Error(`版本資料載入失敗 (HTTP ${versionsResponse.status})`);
+                }
+
+                const versions = await versionsResponse.json();
+                if (Array.isArray(versions) && versions.length > 0) {
+                    ddragonVersion = versions[0];
+                }
+
+                const championsResponse = await fetch(
+                    `https://ddragon.leagueoflegends.com/cdn/${ddragonVersion}/data/zh_TW/champion.json`,
+                    { cache: 'no-store' }
+                );
+                if (!championsResponse.ok) {
+                    throw new Error(`英雄資料載入失敗 (HTTP ${championsResponse.status})`);
+                }
+
+                const championsJson = await championsResponse.json();
+                const championEntries = Object.values(championsJson.data || {});
+                if (!championEntries.length) {
+                    throw new Error('未取得任何英雄資料');
+                }
+
+                champions = championEntries
+                    .map(({ id, name }) => ({ id, name }))
+                    .sort((a, b) => a.name.localeCompare(b.name, 'zh-Hant'));
+
+                championLoadStatus = 'success';
+
+                if (startButton) {
+                    startButton.disabled = false;
+                    startButton.textContent = '開始選角';
+                }
+
+                if (selectMessage) {
+                    selectMessage.textContent = '點擊英雄以進行 B/P。';
+                }
+
+                renderChampions();
+                renderSeriesHistory();
+                renderDraftBoard();
+            } catch (error) {
+                console.error('Failed to load champion roster', error);
+                championLoadStatus = 'error';
+                championLoadErrorMessage = error.message || '未知錯誤';
+
+                if (startButton) {
+                    startButton.disabled = true;
+                    startButton.textContent = '載入失敗';
+                }
+
+                if (selectMessage) {
+                    selectMessage.textContent = '英雄列表載入失敗，請重新嘗試。';
+                }
+
+                renderChampions();
+            }
+        }
 
         // --- 模態框功能 (略) ---
         function showModal(title, text) {
             document.getElementById('modal-title').textContent = title;
-            document.getElementById('modal-text').textContent = text; 
+            document.getElementById('modal-text').textContent = text;
             document.getElementById('modal').classList.remove('hidden');
         }
 
@@ -455,8 +513,17 @@ async function loadChampions() {
             };
 
             phaseText.innerHTML = '<span class="text-yellow-400">選角尚未開始</span>';
-            startButton.textContent = '開始選角';
-            startButton.disabled = false;
+
+            if (championLoadStatus === 'success') {
+                startButton.textContent = '開始選角';
+                startButton.disabled = false;
+            } else if (championLoadStatus === 'error') {
+                startButton.textContent = '載入失敗';
+                startButton.disabled = true;
+            } else {
+                startButton.textContent = '載入英雄資料中...';
+                startButton.disabled = true;
+            }
             winnerButtons.classList.add('hidden');
             searchInput.value = '';
             
@@ -478,11 +545,15 @@ async function loadChampions() {
         }
 
         function startDraft() {
-            if (currentBPState.currentStep > 0) return; 
+            if (currentBPState.currentStep > 0) return;
+            if (championLoadStatus !== 'success') {
+                showModal('英雄資料載入中', '請等待英雄列表載入完成後再開始選角。');
+                return;
+            }
             // 檢查系列賽是否已結束
             if (currentSeriesScore.Blue === 3 || currentSeriesScore.Red === 3) {
-                 showModal('系列賽已結束', '請點擊「重置系列賽」以開始新的 BO5。');
-                 return;
+                showModal('系列賽已結束', '請點擊「重置系列賽」以開始新的 BO5。');
+                return;
             }
             currentBPState.currentStep = 1;
             startButton.textContent = '進行中...';
@@ -699,63 +770,106 @@ async function loadChampions() {
 
         // --- 渲染可用英雄列表 (使用增強的卡片樣式) ---
         function renderChampions() {
-            championGrid.innerHTML = '';
-            const searchValue = searchInput.value.toLowerCase();
+            if (!championGrid) return;
+
+            if (championLoadStatus === 'loading') {
+                championGrid.innerHTML = '<p class="text-center text-gray-300 py-6 animate-pulse">英雄資料載入中...</p>';
+                return;
+            }
+
+            if (championLoadStatus === 'error') {
+                championGrid.innerHTML = `
+                    <div class="text-center text-red-300 space-y-3 py-6">
+                        <p>無法載入英雄資料。</p>
+                        <p class="text-sm text-red-200 break-all">${championLoadErrorMessage}</p>
+                        <button id="retry-champion-load" class="bg-yellow-500 hover:bg-yellow-400 text-gray-900 font-bold py-2 px-4 rounded-lg shadow-lg transition">重新嘗試</button>
+                    </div>
+                `;
+                const retryButton = document.getElementById('retry-champion-load');
+                if (retryButton) {
+                    retryButton.onclick = () => {
+                        loadChampionRoster();
+                    };
+                }
+                return;
+            }
+
+            if (!champions.length) {
+                championGrid.innerHTML = '<p class="text-center text-gray-400 py-6">目前沒有可用的英雄資料。</p>';
+                return;
+            }
+
+            const rawSearch = searchInput ? searchInput.value : '';
+            const searchValue = rawSearch ? rawSearch.toLocaleLowerCase('zh-Hant') : '';
             const { currentStep } = currentBPState;
-            
-            // ⚡ 核心邏輯：集合本局使用的英雄 AND 之前被 Pick 的英雄
-            const allUnavailable = new Set([...currentBPState.selectedChampions, ...seriesPickedChampions]); 
-            
-            // 英雄列表排序
-            const allChampions = champions.sort((a, b) => {
-                const aUnavailable = allUnavailable.has(a.id);
-                const bUnavailable = allUnavailable.has(b.id);
-                if (aUnavailable === bUnavailable) return 0;
-                return aUnavailable ? 1 : -1;
-            });
-            
-            const filteredChampions = allChampions.filter(champ => {
-                const matchesSearch = champ.name.toLowerCase().includes(searchValue) || champ.id.toLowerCase().includes(searchValue);
-                return matchesSearch;
+
+            const allUnavailable = new Set([...currentBPState.selectedChampions, ...seriesPickedChampions]);
+
+            const sortedChampions = [...champions].sort((a, b) => a.name.localeCompare(b.name, 'zh-Hant'));
+            const filteredChampions = sortedChampions.filter(champ => {
+                if (!searchValue) return true;
+                const name = champ.name || '';
+                const id = champ.id || '';
+                return (
+                    name.toLocaleLowerCase('zh-Hant').includes(searchValue) ||
+                    id.toLowerCase().includes(searchValue)
+                );
             });
 
-            filteredChampions.forEach(champ => {
-                const isUnavailable = allUnavailable.has(champ.id); 
+            if (!filteredChampions.length) {
+                championGrid.innerHTML = '<p class="text-center text-gray-400 py-6">沒有符合條件的英雄。</p>';
+                return;
+            }
+
+            const orderedChampions = [
+                ...filteredChampions.filter(champ => !allUnavailable.has(champ.id)),
+                ...filteredChampions.filter(champ => allUnavailable.has(champ.id)),
+            ];
+
+            championGrid.innerHTML = '';
+
+            orderedChampions.forEach(champ => {
+                const isUnavailable = allUnavailable.has(champ.id);
                 const isSeriesPickedBan = seriesPickedChampions.has(champ.id);
-                
                 const iconUrl = getChampionIconUrl(champ.id);
 
                 const champDiv = document.createElement('div');
-                
-                let opacityClass = isUnavailable ? 'opacity-30 pointer-events-none' : 'cursor-pointer';
+
+                let stateClasses = isUnavailable ? 'opacity-30 pointer-events-none' : 'cursor-pointer';
                 let borderClass = 'border-gray-700';
-                
+
                 if (isSeriesPickedBan) {
-                     opacityClass = 'opacity-50 pointer-events-none';
-                     borderClass = 'border-red-600';
+                    stateClasses = 'opacity-50 pointer-events-none';
+                    borderClass = 'border-red-600';
                 } else if (currentBPState.selectedChampions.has(champ.id)) {
-                    opacityClass = 'opacity-30 pointer-events-none';
+                    stateClasses = 'opacity-30 pointer-events-none';
                     borderClass = 'border-gray-500';
                 }
-                
+
                 champDiv.className = `
                     p-1 transition duration-200 text-center relative w-full champion-card
-                    ${opacityClass} ${borderClass}
+                    ${stateClasses} ${borderClass}
                 `;
                 champDiv.title = champ.name;
-                
+
                 champDiv.innerHTML = `
-                    <img 
-                        src="${iconUrl}" 
+                    <img
+                        src="${iconUrl}"
                         onerror="this.onerror=null; this.src='https://placehold.co/80x80/dc2626/fff?text=ERR';"
-                        alt="${champ.name}" 
-                        class="w-full h-auto rounded-lg object-cover" 
+                        alt="${champ.name}"
+                        class="w-full h-auto rounded-lg object-cover"
                     />
                     <span class="champion-name-overlay absolute bottom-0 w-full left-0 bg-black bg-opacity-70 rounded-b-lg truncate font-bold text-xs p-1">${champ.name}</span>
                     ${isSeriesPickedBan ? '<div class="series-banned-overlay absolute inset-0 flex items-center justify-center rounded-lg">PICK 禁用</div>' : ''}
                 `;
 
-                if (!isUnavailable && currentStep > 0 && currentStep <= DRAFT_FLOW.length) {
+                const isInteractable =
+                    championLoadStatus === 'success' &&
+                    !isUnavailable &&
+                    currentStep > 0 &&
+                    currentStep <= DRAFT_FLOW.length;
+
+                if (isInteractable) {
                     champDiv.onclick = () => handleSelection(champ.id);
                 }
 
@@ -767,16 +881,22 @@ async function loadChampions() {
         function handleSelection(championId) {
             const { currentStep, selectedChampions } = currentBPState;
 
+            if (championLoadStatus !== 'success') {
+                showModal('英雄資料尚未就緒', '請等待英雄列表載入完成後再進行操作。');
+                return;
+            }
+
             if (currentStep === 0 || currentStep > DRAFT_FLOW.length) {
                 showModal('提示', '請先點擊「開始選角」按鈕。');
                 return;
             }
-            
+
             // ⚡ 關鍵檢查：英雄是否已被 Pick 過
             if (seriesPickedChampions.has(championId)) {
-                const champName = champions.find(c => c.id === championId).name;
+                const champEntry = champions.find(c => c.id === championId);
+                const champName = champEntry ? champEntry.name : championId;
                 showModal('系列賽 Pick 禁用', `${champName} 已在之前的局數中被 Pick (選用)，直到 BO5 系列賽結束才能再次使用。`);
-                return; 
+                return;
             }
             // 檢查本局禁用
             if (selectedChampions.has(championId)) {
@@ -808,17 +928,14 @@ async function loadChampions() {
         }
 
         // --- 啟動初始化 ---
-        window.onload = function() {
-    (async () => {
-        await loadChampions();
-        initializeSlots();
-        renderChampions();
-        updatePhaseDisplay();
-        updateScoreDisplay();
-        renderSeriesHistory(); 
-        console.log("BO5 B/P 模擬器（Pick 禁用規則）已啟動，並已載入全部英雄。");
-    })();
-};
+        window.onload = async function() {
+            initializeSlots();
+            updatePhaseDisplay();
+            updateScoreDisplay();
+            renderSeriesHistory();
+            await loadChampionRoster();
+            console.log("BO5 B/P 模擬器（Pick 禁用規則）已啟動。");
+        };
 
     </script>
 </body>
